@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <StartArguments>"F:\Il2CppDumper-5.0.4\test\GameAssembly.dll" "F:\Il2CppDumper-5.0.4\test\global-metadata.dat" 2019.3.0b9</StartArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug2|AnyCPU'">
+    <StartArguments>"F:\Il2CppDumper-5.0.4\test\GameAssembly.dll" "F:\Il2CppDumper-5.0.4\Il2CppDumper\bin\Debug\global-metadata.dat" 2019.3.0b9</StartArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug3|AnyCPU'">
+    <StartArguments>"F:\Il2CppDumper-5.0.4\test\GameAssembly.dll" "F:\Il2CppDumper-5.0.4\Il2CppDumper\bin\Debug2\global-metadata2.dat" 2019.3.0b9</StartArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug4|AnyCPU'">
+    <StartArguments>"F:\Il2CppDumper-5.0.4\test\GameAssembly.dll" "F:\Il2CppDumper-5.0.4\Il2CppDumper\bin\Debug3\global-metadata3.dat" 2019.3.0b9</StartArguments>
+  </PropertyGroup>
+</Project>
